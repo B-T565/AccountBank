@@ -12,7 +12,7 @@ class Account implements FunctionalType{
     @Override
     public void deposit(Double amountOfCashToDeposit) {
         this.amountOfCash =
-                (this.amountOfCash==null? 0D: this.amountOfCash)
+                (this.amountOfCash == null? 0D: this.amountOfCash)
                         +amountOfCashToDeposit;
     }
 
